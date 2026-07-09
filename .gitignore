@@ -1,1 +1,4 @@
-.infra/adguard/work/data
+infra/adguard/work/
+infra/adguard/conf/
+infra/portainer/data/
+smart-home/homeassistant/config/.storage

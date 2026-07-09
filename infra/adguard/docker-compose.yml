@@ -1,0 +1,21 @@
+services:
+  adguardhome:
+    image: adguard/adguardhome:latest
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    container_name: adguardhome
+    restart: unless-stopped
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "3000:3000/tcp"   # setup inicial (solo primera vez)
+      - "8088:80/tcp"     # panel web
+    volumes:
+      - ./work:/opt/adguardhome/work
+      - ./conf:/opt/adguardhome/conf
+    networks:
+      - proxied
+
+networks:
+  proxied:
+    external: true

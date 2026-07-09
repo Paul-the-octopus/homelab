@@ -1,0 +1,293 @@
+2026-07-09 19:15:00.963 ERROR (MainThread) [habluetooth.manager] Missing required permissions for Bluetooth management. Automatic adapter recovery is unavailable. Add NET_ADMIN and NET_RAW capabilities to the container to enable it
+Traceback (most recent call last):
+  File "src/habluetooth/manager.py", line 417, in habluetooth.manager.BluetoothManager.async_setup
+  File "src/habluetooth/channels/bluez.py", line 750, in setup
+PermissionError: Missing NET_ADMIN/NET_RAW capabilities for Bluetooth management
+2026-07-09 19:15:00.968 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:00.975 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:00.982 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:00.988 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:02.683 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:02.694 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:02.696 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:02.732 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:02.750 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:02.757 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:02.770 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:02.776 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:08.046 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:08.048 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:08.050 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:08.052 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:13.115 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:13.117 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:13.119 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:13.121 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:28.285 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:28.289 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:28.291 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:28.293 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:53.305 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:53.307 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:53.310 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:15:53.312 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:16:48.640 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:16:48.642 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:16:48.644 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:16:48.647 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:18:33.579 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:18:33.581 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:18:33.583 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2026-07-09 19:18:33.585 ERROR (MainThread) [habluetooth.scanner] hci0 (8C:C6:81:D0:A6:A5): Failed to force stop scanner
+Traceback (most recent call last):
+  File "src/habluetooth/scanner_bleak.py", line 964, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "src/habluetooth/scanner_bleak.py", line 965, in habluetooth.scanner_bleak.HaScanner._async_force_stop_discovery
+  File "/usr/local/lib/python3.14/site-packages/bleak_retry_connector/bluez.py", line 315, in stop_discovery
+    await manager._bus.send(
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'

@@ -1,0 +1,14 @@
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    container_name: homeassistant
+    restart: unless-stopped
+    ports:
+      - "8123:8123"
+    privileged: true
+    network_mode: host
+    volumes:
+      - ./config:/config
+      - /run/dbus:/run/dbus:ro
+    environment:
+      - TZ=America/Santiago
