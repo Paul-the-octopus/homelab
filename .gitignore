@@ -1,4 +1,69 @@
 infra/adguard/work/
 infra/adguard/conf/
 infra/portainer/data/
-smart-home/homeassistant/config/.storage
+smart-home/homeassistant/config/.storage/
+
+#############################################
+# Home Assistant
+#############################################
+
+smart-home/homeassistant/config/home-assistant_v2.db*
+smart-home/homeassistant/config/home-assistant.log*
+smart-home/homeassistant/config/home-assistant.log.fault
+smart-home/homeassistant/config/.ha_run.lock
+smart-home/homeassistant/config/backups/
+smart-home/homeassistant/config/tts/
+smart-home/homeassistant/config/www/community/
+smart-home/homeassistant/config/deps/
+smart-home/homeassistant/config/__pycache__/
+
+#############################################
+# SQLite
+#############################################
+
+*.db
+*.db-shm
+*.db-wal
+
+#############################################
+# Logs
+#############################################
+
+*.log
+*.log.*
+
+#############################################
+# Python
+#############################################
+
+__pycache__/
+*.pyc
+*.pyo
+
+#############################################
+# Linux
+#############################################
+
+.DS_Store
+Thumbs.db
+
+#############################################
+# VS Code
+#############################################
+
+.vscode/
+
+#############################################
+# Temporary
+#############################################
+
+tmp/
+temp/
+cache/
+*.tmp
+
+#############################################
+# Docker runtime
+#############################################
+
+**/lost+found/
