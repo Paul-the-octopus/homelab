@@ -68,3 +68,16 @@ cache/
 #############################################
 
 **/lost+found/
+
+
+smart-home/homeassistant/config/secrets.yaml
+smart-home/homeassistant/config/.HA_VERSION
+
+.env
+*.env
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
