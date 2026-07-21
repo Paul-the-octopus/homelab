@@ -16,7 +16,8 @@ smart-home/homeassistant/config/tts/
 smart-home/homeassistant/config/www/community/
 smart-home/homeassistant/config/deps/
 smart-home/homeassistant/config/__pycache__/
-
+smart-home/homeassistant/config/.cache/
+smart-home/homeassistant/config/image/
 #############################################
 # SQLite
 #############################################
